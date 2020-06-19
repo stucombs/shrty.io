@@ -1,0 +1,55 @@
+/*APPLICATION*/
+html, body {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+}
+
+/*HEADER CSS*/
+.header-main {
+	padding: 5px;
+	background-color: #EFEFEF;
+}
+
+.drop-shadow {
+	background-color: #F8F9FA;
+	-webkit-box-shadow: 0px 10px 9px white;
+	-moz-box-shadow: 0px 10px 9px white;
+	box-shadow: 0px 10px 9px white;
+	z-index: 100;
+}
+
+/* BODY CSS */
+.body-main {
+	color: white;
+	padding: 10px;
+	height: 92vh;
+	background-color: #1F1F1f;
+}
+
+.body-text {
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px;
+}
+
+.body-text-top {
+	padding: 6px;
+}
+
+.url-input {
+	width: 60%;
+	padding: 4px;
+	height: 32px;
+}
+
+/* FOOTER */
+.footer {
+	color: #ffffff;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	padding-bottom: 15px;
+	z-index: 100;
+}
